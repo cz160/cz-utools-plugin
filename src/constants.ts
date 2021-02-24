@@ -17,7 +17,7 @@ export const sites = [
   {
     title: "react",
     desc: "react文档",
-    url: "https://www.npmjs.com/",
+    url: "https://reactjs.bootcss.com/",
   },
   {
     title: "vue",
