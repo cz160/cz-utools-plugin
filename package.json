@@ -1,0 +1,10 @@
+{
+  "name": "cz-uTools-plugin",
+  "version": "0.0.1",
+  "description": "进入常用网页的快捷命令",
+  "main": "index.js",
+  "repository": "https://github.com/cz160/cz-utools-plugin.git",
+  "author": "陈昭 <chenz@weipaitang.com>",
+  "license": "MIT",
+  "private": false
+}
