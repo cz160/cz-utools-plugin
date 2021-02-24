@@ -1,10 +1,16 @@
 {
-  "name": "cz-uTools-plugin",
+  "name": "site-navigation",
   "version": "0.0.1",
   "description": "进入常用网页的快捷命令",
   "main": "index.js",
   "repository": "https://github.com/cz160/cz-utools-plugin.git",
-  "author": "陈昭 <chenz@weipaitang.com>",
+  "author": "竹合",
   "license": "MIT",
-  "private": false
+  "private": false,
+  "scripts": {
+    "compile": "father-build"
+  },
+  "devDependencies": {
+    "father-build": "^1.19.2"
+  }
 }
