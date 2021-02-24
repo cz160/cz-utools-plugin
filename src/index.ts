@@ -1,4 +1,4 @@
-import { sites } from "./constant";
+import { sites } from "./constants";
 
 // 配置文件
 export const PLUGIN_JSON = {
@@ -8,7 +8,7 @@ export const PLUGIN_JSON = {
   preload: "./preload.js",
   author: "竹合",
   homepage: "http://www.czhuangjia.top/",
-  logo: "logo.png",
+  logo: "logo.jpeg",
   features: [],
 };
 // 增加快捷命令
@@ -25,3 +25,5 @@ const features = sites.map((site) => {
 });
 
 addFeatures(features);
+
+export const NEED_COPY_FILE = ["constants.js"];

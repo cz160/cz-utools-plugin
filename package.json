@@ -2,15 +2,20 @@
   "name": "site-navigation",
   "version": "0.0.1",
   "description": "进入常用网页的快捷命令",
-  "main": "index.js",
   "repository": "https://github.com/cz160/cz-utools-plugin.git",
   "author": "竹合",
   "license": "MIT",
   "private": false,
   "scripts": {
-    "compile": "father-build"
+    "compile": "father-build",
+    "build": "yarn compile  && node lib/bundle.js"
   },
   "devDependencies": {
+    "@types/fs-extra": "^9.0.7",
+    "@types/vinyl-fs": "^2.4.11",
     "father-build": "^1.19.2"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.13.6"
   }
 }
