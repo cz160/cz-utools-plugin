@@ -1,0 +1,16 @@
+{
+  "pluginName": "helloWorld",
+  "author": "竹合",
+  "homepage": "http://www.czhuangjia.top",
+  "description": "这是我的第一个uTools插件",
+  "main": "index.html",
+  "version": "0.0.1",
+  "logo": "logo.jpeg",
+  "features": [
+    {
+      "code": "hello",
+      "explain": "hello world",
+      "cmds": ["hello", "你好"]
+    }
+  ]
+}
